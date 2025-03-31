@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*ese el encabezado*/
+.contenedor2{
+    width: 100%;
+    height: 100vh;
+background-color: rgb(48, 51, 51);
+
+}
+.cabeza{
+    width: 100%;
+    height: 20vh;
+    background-color:  rgb(48, 51, 51);
+    
+}
+.imi{
+    color: rgb(48, 51, 51);
+    background-color:  rgb(48, 51, 51);
+
+}
+h1{
+    color: aquamarine;
+}
+.CENTE1{
+    text-align: center;
+}
+.had{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80%;
+   
+}
+.nave{
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+}
+.espa{
+    margin: 10px;
+    padding: 10px;
+}
+.rad{
+    border-radius: 50%;
+    height: 80%;
+}
+/*ese es el body*/
+h2{
+    background-color:rgba(231, 227, 227, 0.856); ;
+}
+
+
+.contenedor{
+    height: 70vh;
+    width: 100%;
+    background-color: gray;
+}
+.cont1{
+    float: left;
+    height: 50%;
+    width: 20%;
+    background-color: rgba(231, 227, 227, 0.856);
+}
+.cont2{
+    float: right;
+    height: 70%;
+    width: 80%;
+    background-color: rgba(231, 227, 227, 0.856);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap
+  
+}
+.todo{
+    height: 48%;
+    
+    width: 33%;
+   
+    background-color: white;
+    text-align: center;
+   
+}
+.imagen{
+
+    max-width: 50%;
+    max-height: 50%;
+}
+.boton{
+    background-color: white;
+    border: 2px solid red;
+   
+
+    
+}
+
+/*table*/
+.cont3{
+    float: right;
+    height: 25%;
+    width: 80%;
+    background-color: blanchedalmond;
+}
+.dona{
+    float: right;
+    height: 3%;
+    width: 80%;
+}
+table{
+    width: 100%;
+}
+table,tr,td,th {
+    border: 2px solid blueviolet;
+    border-collapse: collapse;
+}
+/*footer*/
+h6{
+    text-align: center;
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+
+}
+/*contenedor about*/
+.contaboutaa{
+    height: 70%;
+    width: 80%;
+    background-color: rgba(231, 227, 227, 0.856);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap}
+
+.nosotros{
+    text-align: center;
+}
+.teamtot{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.h3cent,.team{
+    text-align: center;
+}
+
+

@@ -46,6 +46,7 @@ h1{
 .rad{
     border-radius: 50%;
     height: 80%;
+    width: 15%;
 }
 /*ese es el body*/
 h2{
@@ -60,9 +61,10 @@ h2{
 }
 .cont1{
     float: left;
-    height: 50%;
+    height: 70%;
     width: 20%;
     background-color: rgba(231, 227, 227, 0.856);
+    
 }
 .cont2{
     float: right;
@@ -85,15 +87,12 @@ h2{
 }
 .imagen{
 
-    max-width: 50%;
-    max-height: 50%;
+    width: 90%;
+    max-height: 60%;
 }
 .boton{
     background-color: white;
-    border: 2px solid red;
-   
-
-    
+    border: 2px ; 
 }
 
 /*table*/
@@ -137,14 +136,36 @@ h6{
 
 .nosotros{
     text-align: center;
+    height: 20%;
+    background-color: aqua;
 }
-.teamtot{
+.parte2{
+    height: 60%;
+    background-color: blue;
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
 }
-.h3cent,.team{
+.team{
+   
     text-align: center;
+}
+.rad2{
+    border-radius: 50%;
+    height: 50%;
+    width: 50%;
+}
+/*index*/
+.todoi{
+    height: 100%;
+    width: 33%;
+    background-color: rgb(212, 202, 202);
+    text-align: center;
+}
+.index1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 40%;
 }
 
 
